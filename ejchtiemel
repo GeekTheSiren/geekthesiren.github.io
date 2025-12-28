@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 5px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+    to right in oklab,
+    oklch(0.6743 0.0961 19.89)  0%,
+    oklch(0.7499 0.1024 51.21)  16.67%,
+    oklch(0.8644 0.109 92.91)   33.33%,
+    oklch(0.7859 0.0562 150.69) 50%,
+    oklch(0.6857 0.0635 190.5)  66.67%,
+    oklch(0.6263 0.0897 292.01) 83.33%,
+    oklch(0.5292 0.0858 328.97) 100%
+  );
+  border-radius: 20px
+}
+</style>
+</head>
+<body>
+​
+<div id="grad1"></div>
+​
+</body>
+</html>
